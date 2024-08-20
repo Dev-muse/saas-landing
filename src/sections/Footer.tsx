@@ -28,9 +28,7 @@ export const Footer = () => {
           <SocialPin />
           <SocialYoutube />
         </div>
-        <p className="mt-6">
-          &copy; 2024 Your Company, Inc. All rights reserved.
-        </p>
+        <p className="mt-6">&copy; 2024 TrackBit, Inc. All rights reserved.</p>
       </div>
     </footer>
   );
