@@ -68,8 +68,8 @@ const FAQs = () => {
           Frequently asked questions
         </h2>
         <div className="mt-12 max-w-[648px] mx-auto">
-          {items.map(({ question, answer }) => (
-            <AccordionItem question={question} answer={answer} />
+          {items.map(({ question, answer }, index) => (
+            <AccordionItem key={index} question={question} answer={answer} />
           ))}
         </div>
       </div>
